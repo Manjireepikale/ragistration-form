@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Form Example</title>
+    <link rel="stylesheet" href="./inddx.css">
+<style>
+    body {
+
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 20px;
+    }
+
+    form {
+        background-color: #fff;
+        border-radius: 5px;
+
+        padding: 40px;
+        max-width: 400px;
+        margin: 0 auto;
+        box-shadow: 0 -11px 17px rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+
+    select {
+        width: 100%;
+        padding: 10px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+
+    input[type="radio"] {
+        margin-right: 5px;
+    }
+
+    textarea {
+        resize: vertical;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    #Logo {
+        width: 100%;
+    }
+</style></head>
+<style>
+    body {
+
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 20px;
+    }
+
+    form {
+        background-color: #fff;
+        border-radius: 5px;
+
+        padding: 40px;
+        max-width: 400px;
+        margin: 0 auto;
+        box-shadow: 0 -11px 17px rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+
+    select {
+        width: 100%;
+        padding: 10px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+
+    input[type="radio"] {
+        margin-right: 5px;
+    }
+
+    textarea {
+        resize: vertical;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    #Logo {
+        width: 100%;
+    }
+</style>
+
+<body>
+    <form>
+	    <a href="#">job application</a>
+        <img src="./Final logo- JPEG (1) (1).jpg" id="Logo">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="mobile-number">Mobile Number:</label>
+        <input type="tel" id="mobile-number" name="mobile-number" required><br>
+
+        <label for="file"> Resume Upload:</label>
+        <input type="file" id="file" name="file"><br>
+
+        <label for="dropdown">Position you are applying for:</label>
+        <select id="dropdown" name="dropdown">
+            <option value="option1">Tester</option>
+            <option value="option2">Developer</option>
+            <option value="option3">UI/UX</option>
+        </select><br>
+
+        <label for="mobile-number">Portfolio Website:</label>
+        <input type="text" id="Portfolio" name="Portfolio" required><br>
+
+
+        <label for="salary">Salary Requirement</label>
+        <input type="number" id="salary" name="salary"><br>
+
+
+        <p>Are You willing to relocate</p>
+        <input type="radio" id="option1" name="willing" value="option1">
+        <label for="Yes">Yes</label>
+
+        <input type="radio" id="option2" name="willing" value="option2">
+        <label for="option2">No</label>
+
+        <input type="radio" id="option3" name="willing" value="option3">
+        <label for="Not sure">Not sure</label>
+        <br>
+
+        <label for="date">When You Start:</label>
+        <input type="date" id="date" name="date"><br>
+
+        <label for="company">Last Company Name:</label>
+        <input type="text" id="company" name="company"><br>
+
+        <label for="message">Comments:</label>
+        <textarea id="message" name="message"></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
